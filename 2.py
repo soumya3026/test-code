@@ -4,6 +4,8 @@ def subs(s1,s2):
     return n
 
 
-s1 = "going to go to goa"
-s2 = "go"
+#s1 = "going to go to goa"
+#s2 = "go"
+s1 = input()
+s2 = input()
 print(subs(s1,s2))
