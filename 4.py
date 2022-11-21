@@ -15,12 +15,9 @@ def rect(m):
     print(m)
                 
 
-# Driver Program
 M = [[1,0,0,1,1],
 	[1,0,0,0,1],
 	[1,0,0,1,1],
 	[1,1,1,1,1]]
 
 print(rect(M))
-
-# This code is contributed by Soumen Ghosh
