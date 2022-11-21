@@ -1,16 +1,9 @@
 def series(n):
     valid = ["0","1","2","5","6","8","9"]
-    count = 0
-    p = 1
-    while(count < n):
-        for i in str(p):
-            f = 1
-            if i not in valid:
-                f = 0
-            if f==1:
-                count += 1
-        p += 1
-    return p
+    k = n//7
+    d = n-(k*7)
+    res = valid[d]
+    return (int(k*10+int(d)))
 
 
 #n = 8
