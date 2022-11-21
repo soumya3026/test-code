@@ -1,1 +1,4 @@
 Web scrawling::
+firstly, we need to understand the domain structure and configure the URL sources.
+Then Running a test crawl and Add crawl restrictions.
+Test the changes.
