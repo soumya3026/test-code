@@ -9,5 +9,6 @@ def base3(n):
         n = n//3
     return (sig+str(int(p)))
 
-n = 10
+#n = 10
+n = int(input())
 print(base3(n))
